@@ -17,6 +17,17 @@ description: 'Lila Sciences is an AI company founded in 2023 that is building wh
   Cambridge MA, San Francisco CA, and London UK. As of this profile Lila publishes no public developer
   API, developer portal, SDKs, or machine-readable API artifacts; this entry is a company identity record
   in the API Evangelist network.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
