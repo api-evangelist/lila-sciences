@@ -64,26 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lila Sciences is an AI company founded in 2023 building what it calls Scientific Superintelligence — a scientific reasoning model trained on experimental data rather than internet text, coupled to autonomous robotic laboratory networks it calls AI Science Factories. The system generates hypotheses, designs and executes experiments, and learns from the results.
+Lila Sciences is an AI company founded in 2023 that is building what it calls Scientific Superintelligence: an autonomous system that runs the scientific method end to end by generating hypotheses, designing experiments, executing them in physical AI Science Factories (autonomous robotic laboratory networks), and learning from the resulting experimental data. Rather than training on internet text, Lila trains a scientific reasoning model on experimental data, coupling it to scalable verifiers and instruments such as molecular dynamics simulators, protein structure predictors, quantum chemistry solvers, and gene editors, then optimizing the policy with reinforcement learning. The company packages this as two commercial offerings: Catalyst, positioned as an operating system for science that accelerates an organization's existing research, and Creation, a partnership model for generating new discoveries, launching products, and founding new companies. Lila works across therapeutics (mRNA, proteins, antibodies, cell therapies, small molecules), advanced materials, chemicals, energy and environment, oil and gas, aerospace and defense, and biotech. It has raised roughly $550M ($200M seed announced March 2025 and a $350M Series A closed in October 2025) from investors including General Catalyst and NVIDIA, at a reported valuation above $1.3B, and collaborates with NVIDIA on the BioNeMo Agent Toolkit. Lila operates from Cambridge MA, San Francisco CA, and London UK. As of this profile Lila publishes no public developer API, developer portal, SDKs, or machine-readable API artifacts; this entry is a company identity record in the API Evangelist network.
 
-It sells two offerings: **Catalyst**, an operating system for science applied to an organization's existing research, and **Creation**, a partnership model for generating discoveries, launching products, and founding new companies. Work spans therapeutics, advanced materials, chemicals, energy and environment, oil and gas, aerospace and defense, and biotech.
+**Areas:** Company · Artificial Intelligence · Machine Learning · Scientific Research · Life Sciences · Biotechnology · Therapeutics · Advanced Materials · Laboratory Automation · Robotics · Drug Discovery · Energy
 
-Lila has raised roughly $550M (a $200M seed announced March 2025 and a $350M Series A closed October 2025) from investors including General Catalyst and NVIDIA, at a reported valuation above $1.3B. Offices in Cambridge MA, San Francisco CA, and London UK.
+## Lila Sciences on APIs.io
 
-- Website: https://www.lila.ai/
-- News and blog: https://www.lila.ai/news
+Everything profiled for Lila Sciences is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lila-sciences/](https://apis.io/providers/lila-sciences/)** — or go straight to one of the APIs or properties below.
 
-## API surface
+### Published properties
 
-**Lila Sciences publishes no public API.** As of 2026-07-19 there is no developer portal, no documentation site, no SDKs or packages on npm/PyPI, no public GitHub organization, and no `/.well-known/` discovery surface. Access to Catalyst appears to be sold through direct partnership rather than self-serve developer signup. This repo is therefore a **company identity record**, not an API profile.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-| Artifact | Path | Method |
-|---|---|---|
-| Company profile | `apis.yml` | searched |
-| llms.txt | `llms/lila-sciences-llms.txt` | generated |
-| Well-known probe (negative result) | `well-known/lila-sciences-well-known.yml` | searched |
-| Domain security | `security/lila-sciences-domain-security.yml` | probed |
+Authentication, trust centre, and vulnerability disclosure.
 
-Backed by: general-catalyst, nvidia
+- [Lila Sciences Domain Security](https://apis.io/security/lila-sciences/lila-sciences-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lila.ai/)
+- [Blog](https://www.lila.ai/news)
+- [Terms of service](https://www.lila.ai/terms-of-use)
+- [Privacy policy](https://www.lila.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lila-sciences/](https://apis.io/providers/lila-sciences/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lila Sciences: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lila-sciences/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
